@@ -21,3 +21,16 @@ a := a + 1;
 dbms_output.put_line('value of A - ' || a);
 end loop;
 end;
+
+
+PROCEDURE ->
+
+CREATE OR REPLACE PROCEDURE greetings
+AS 
+BEGIN
+dbms_output.put_line('Hello World');
+END;
+/
+
+EXCEUTE greetings;
+
