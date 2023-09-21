@@ -34,3 +34,18 @@ END;
 
 EXCEUTE greetings;
 
+To DROP the procedure ->
+
+DROP PROCEDURE greetings;
+
+
+Triggers - A trigger is called a special procedure because it cannot be called directly like a stored procedure. 
+The key distinction between the trigger and procedure is that a trigger is called automatically
+
+Types :   
+DML Triggers
+DDL Triggers
+System/Database Triggers
+Instead of Triggers
+
+
