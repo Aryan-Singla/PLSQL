@@ -1,0 +1,23 @@
+For Loop - >
+
+DECLARE 
+a number(2);
+BEGIN 
+FOR a in 0..10 LOOP
+dbms_output.put_line('value of a:' || a);
+END LOOP;
+END;
+
+While Loop ->
+
+declare
+a int;
+b int;
+begin
+a := 0;
+b := 10;
+while a < b loop
+a := a + 1;
+dbms_output.put_line('value of A - ' || a);
+end loop;
+end;
